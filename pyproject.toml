@@ -1,0 +1,25 @@
+[project]
+name = "hackaton"
+version = "v1.0.0"
+description = ""
+authors = [{ name = "Artur Spatari", email = "artemir0106@gmail.com" }]
+dependencies = [
+    "httpx>=0.25.1",
+    "devtools>=0.12.2",
+    "loguru>=0.7.2",
+    "pydantic>=2.4.2",
+    "requests>=2.31.0",
+    "pandas>=2.1.3",
+    "jupyter>=1.0.0",
+    "haversine>=2.8.0",
+    "folium>=0.15.0",
+    "pyproj>=3.6.1",
+    "geopandas>=0.14.1",
+    "matplotlib>=3.8.1",
+    "fastapi>=0.104.1",
+    "uvicorn>=0.24.0.post1",
+    "numpy>=1.26.1",
+]
+requires-python = ">=3.11"
+readme = "README.md"
+license = { text = "MIT" }
